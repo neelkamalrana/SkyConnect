@@ -21,8 +21,8 @@ It leverages **Dijkstra’s Algorithm** to compute the shortest path and total d
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/your-username/SkyConnect/assets/your-image-id1" alt="Initial Form State" width="45%"/>
-  <img src="https://github.com/your-username/SkyConnect/assets/your-image-id2" alt="Shortest Path Result" width="45%"/>
+  <img src="Resources/img-1.png" alt="Initial Form State" width="45%"/>
+  <img src="Resources/img-2.png" alt="Shortest Path Result" width="45%"/>
 </p>
 
 ---
