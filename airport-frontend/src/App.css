@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.homepage-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.homepage-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10), 0 1.5px 4px rgba(0,0,0,0.08);
+  padding: 40px 32px 32px 32px;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.homepage-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3a4b;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.homepage-field {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.homepage-select {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #bfc9d1;
+  font-size: 1rem;
+  background: #f7fafc;
+  transition: border 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.homepage-select:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
+
+.homepage-button {
+  background: linear-gradient(90deg, #4f8cff 0%, #38b6ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.homepage-button:disabled {
+  background: #bfc9d1;
+  cursor: not-allowed;
+}
+
+.homepage-button:not(:disabled):hover {
+  background: linear-gradient(90deg, #38b6ff 0%, #4f8cff 100%);
+  box-shadow: 0 4px 16px rgba(79,140,255,0.15);
+}
+
+.homepage-itinerary {
+  margin-top: 32px;
+}
+
+.homepage-itinerary h2 {
+  color: #2d3a4b;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.homepage-itinerary ul {
+  padding-left: 18px;
+}
+
+.homepage-itinerary li {
+  margin-bottom: 6px;
+  color: #3a4a5b;
+  font-size: 1.05rem;
+}
