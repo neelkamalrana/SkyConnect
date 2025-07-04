@@ -48,3 +48,28 @@ It leverages **Dijkstra’s Algorithm** to compute the shortest path and total d
 | **Build Tools** | Maven, npm           |
 
 ---
+## ⚡ Getting Started
+
+To set up SkyConnect locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/neelkamalrana/SkyConnect.git
+
+# 2. Navigate to the project backend directory 
+cd airport-backend
+
+# 3. Install required dependencies
+mvn clean install
+
+# 4. Start the development server
+mvn spring-boot:run
+
+# 5. Navigate to the project frontend directory 
+cd airport-frontend
+
+# 3. Install required dependencies
+npm install
+
+# 4. Start the development server
+npm start
